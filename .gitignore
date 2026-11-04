@@ -8,3 +8,8 @@ build/
 *.egg-info/
 runs/
 .idea/
+
+# Local secrets: keep the template, ignore every real .env
+.env
+.env.*
+!.env.example
